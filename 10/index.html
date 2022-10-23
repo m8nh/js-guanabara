@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        body {
+            background: cornflowerblue;
+            color: white;
+            font: normal 18pt Arial;
+        }
+    </style>
+</head>
+<body>
+    <h1> Iniciano estudo de DOm</h1>
+    <p> Aqui vai o Resultado</p>
+    <p>Aprendendo a usar <strong>DOM</strong> em JS.</p>
+    <div id="msg"> clique em mim</div>
+    <script>
+        var corpo = window.document.body
+        var p1 = window.document.getElementsByTagName(`p`)[0]
+
+        //corpo.style.background = 'black'
+        //window.document.write('Está escrioto assim' +p1.innerText)
+        p1.style.color = 'blue'
+        var d = window.document.getElementById("msg")
+        d.style.background = 'green'
+        //d.innerText = 'Estou te aguardadno....'
+        var d = window.document.querySelector('div#msg')
+
+    </script>
+</body>
+</html>
