@@ -16,9 +16,31 @@ section{
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
 
 }
+div{
+    text-align: center;
+    padding: 8px;
+}
 footer{
     color: aliceblue;
     text-align: center;
     font-style: italic;
 
+}
+.circle {
+    text-align: center;
+    background-color: #aaa;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    overflow: hidden;
+    position: relative;
+}
+
+.circle img {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+img{
+    text-align: center;
 }
